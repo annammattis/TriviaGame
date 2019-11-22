@@ -18,26 +18,26 @@ $(document).ready(function () {
         
         // questions, options and answers data
         questions: {
-            q1: 'In the first episode, King Robert Baratheon says"In my dreams, I kill him every night." To whom is he referring to and why?',
-            q2: '',
-            q3: '',
-            q4: '',
+            q1: 'In the first episode, King Robert Baratheon says "In my dreams, I kill him every night." To whom is he referring to and why?',
+            q2: 'What is the name of the continent on which most of the action of "Game of Thrones" takes place?',
+            q3: 'What noble house is Catelyn Stark from?',
+            q4: 'Brienne pledged her alliance to which of these pairs?',
             q5: '',
             q6: ''
         },
         options: {
-            q1: ['Ned Stark, because he killed the best swordsman known to all men', 'Tyrion Lannister, because he killed the mother of his wife during childbirth', 'Rhaegar Targaryen, because he kidnapped Lyanna Stark', ''],
-            q2: [''],
-            q3: [''],
-            q4: [''],
+            q1: ['Ned Stark, because he killed the best swordsman known to all men', 'Tyrion Lannister, because he killed the mother of his wife during childbirth', 'Rhaegar Targaryen, because he kidnapped Lyanna Stark', 'Jamie Lannister, because he knows about the affair with his wife'],
+            q2: ['Essos', 'Laos', 'Westeros', 'Sothoryos'],
+            q3: ['House Tully', 'House Mormont', 'House Tyrell', 'House Arryn'],
+            q4: ['Renly Baratheon and Melisandre', 'Sansa Stark and Selwyn Tarth', 'Stannis Baratheon and Catelyn Stark', 'Catelyn Stark and Renly Baratheon'],
             q5: [''],
             q6: ['']
         },
         answers: {
             q1: 'Rhaegar Targaryen, because he kidnapped Lyanna Stark',
-            q2: '',
-            q3: '',
-            q4: '',
+            q2: 'Westeros',
+            q3: 'House Tully',
+            q4: 'Catelyn Stark and Renly Baratheon',
             q5: '',
             q6: ''
         },
