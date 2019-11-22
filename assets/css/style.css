@@ -1,0 +1,14 @@
+body{
+	background-image: image('assets\images\The_Wall_from_the_south.jpg');
+	text-align: center;
+}
+
+.text-muted{
+	color: blue;
+}
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 15px;
+}
