@@ -22,7 +22,7 @@ $(document).ready(function () {
             q2: 'What is the name of the continent on which most of the action of "Game of Thrones" takes place?',
             q3: 'What noble house is Catelyn Stark from?',
             q4: 'Brienne pledged her alliance to which of these pairs?',
-            q5: '',
+            q5: 'Aside from being Master of Coin and a member of the Kings Small Council, the character of Peter (Littlefinger) Baelish from Kings Landing also runs what kind of business?',
             q6: ''
         },
         options: {
@@ -30,7 +30,7 @@ $(document).ready(function () {
             q2: ['Essos', 'Laos', 'Westeros', 'Sothoryos'],
             q3: ['House Tully', 'House Mormont', 'House Tyrell', 'House Arryn'],
             q4: ['Renly Baratheon and Melisandre', 'Sansa Stark and Selwyn Tarth', 'Stannis Baratheon and Catelyn Stark', 'Catelyn Stark and Renly Baratheon'],
-            q5: [''],
+            q5: ['Masonry Shop', 'Blacksmith Shop', 'Brothel', 'Restaurant'],
             q6: ['']
         },
         answers: {
@@ -38,16 +38,16 @@ $(document).ready(function () {
             q2: 'Westeros',
             q3: 'House Tully',
             q4: 'Catelyn Stark and Renly Baratheon',
-            q5: '',
+            q5: 'Brothel',
             q6: ''
         },
         // start game
         startGame: function() {
             //reset game
-            trivia.correct: 0,
-            trivia.incorrect: 0,
-            trivia.unanswered: 0,
-            trivia.current: 0, 
+            trivia.correct; 0,
+            trivia.incorrect; 0,
+            trivia.unanswered; 0,
+            trivia.current; 0, 
             clearInterval(trivia.timerId);
 
             //show game section
@@ -95,7 +95,7 @@ $(document).ready(function () {
         //method to decrement counter and count unanswered if their time runs out
         timerRunning: function() {
             //if timer still has time left and there are still questions left to ask
-            if(trivia.timer . -1 && trivia.current < Object.key(trivia.questions).length) {
+            if(trivia.timer -1 && trivia.current < Object.key(trivia.questions).length) {
                 $('#timer').text(trivia.timer);
                 trivia.timer--;
                 if(trivia.timer === 4) {
@@ -170,5 +170,4 @@ $(document).ready(function () {
             //begin next quesiton
             trivia.nextQuestion();
         }
-    }
-})
+};
