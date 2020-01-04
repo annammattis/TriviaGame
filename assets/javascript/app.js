@@ -1,9 +1,11 @@
 $(document).ready(function () {
 
     //event listeners
-    $('#remaining-time').hide();
-    $('#start').on('click', trivia.startGame);
-    $(document).on('click', '.option', trivia.guessChecker);
+    startGame() {
+        $('#remaining-time').hide();
+        $('#start').on('click', trivia.startGame);
+        $(document).on('click', '.option', trivia.guessChecker);
+    };
 
 })
 
@@ -170,4 +172,10 @@ $(document).ready(function () {
             //begin next quesiton
             trivia.nextQuestion();
         }
+};
+
+function newFunction() {
+    $('#remaining-time').hide();
+    $('#start').on('click', trivia.startGame);
+    $(document).on('click', '.option', trivia.guessChecker);
 };
